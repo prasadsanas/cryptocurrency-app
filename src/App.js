@@ -35,8 +35,24 @@ const App = () => {
             </Routes>
           </div>
         </Layout>
+        <div className="footer">
+          <Typography.Text
+            level={5}
+            style={{
+              textAlign: "center",
+              color: "#fff",
+            }}
+          >
+            CryptoWorld <br />
+            All rights reserved
+          </Typography.Text>
+          <Space>
+            <Link to="/">Home</Link>
+            <Link to="/exchanges">Exchanges</Link>
+            <Link to="/news">News</Link>
+          </Space>
+        </div>
       </div>
-      <div className="footer"></div>
     </div>
   );
 };
